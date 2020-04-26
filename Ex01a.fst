@@ -61,10 +61,10 @@ let checkedRead f =
   if canRead f then read f else raise InvalidRead
 
 
-assume val checkedWrite : filename -> string -> ML unit
 exception InvalidWrite
-let checkedWrite f =
-  if canWrite f then write f else raise InvalidWrite
+val checkedWrite : filename -> string -> ML unit
+let checkedWrite f s =
+  if canWrite f then write f s else raise InvalidWrite
 
 
 let dynamicChecking () =
