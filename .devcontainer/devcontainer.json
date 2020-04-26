@@ -1,0 +1,4 @@
+{
+  "image": "fstarlang/fstar:latest",
+  "extensions": ["artagnon.vsfstar"]
+}
