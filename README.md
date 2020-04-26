@@ -1,1 +1,2 @@
 # fstar-tutorial
+This repository contains code for exercises in the [F* tutorial](https://www.fstar-lang.org/tutorial/). It includes a [devcontainer](https://code.visualstudio.com/docs/remote/containers) for Visual Studio Code that uses the [FStar image](https://github.com/FStarLang/FStar/wiki/Running-F%2A-from-a-docker-image) and [FStar extension](https://marketplace.visualstudio.com/items?itemName=artagnon.vsfstar). Programs can be verified with `fstar.exe <.fst file>`.
